@@ -1,6 +1,4 @@
-import Link from "next/link";
 import CardList from "./components/CardLists";
-import Pagination from "./components/Pagination";
 
 async function getData(page = 1) {
   const res = await fetch(`https://technical.test.talenavi.com/api/movie?page=${page}`);
